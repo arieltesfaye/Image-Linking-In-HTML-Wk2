@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic CSS for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        .gallery {
+            display: flex; /* Change display property to flex */
+            justify-content: space-between; /* Distribute items evenly */
+            flex-wrap: wrap; /* Wrap items to the next line if needed */
+        }
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex; /* Change display property to flex */
+            justify-content: space-between; /* Distribute items evenly */
+            flex-wrap: wrap; /* Wrap items to the next line if needed */
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+        .food-item {
+            text-align: center; /* Center text */
+            max-width: 300px; /* Limit maximum width */
+        }
+        .food-name {
+            display: block; /* Display food name as a block element */
+            margin-top: 5px; /* Add some space between image and text */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! We specialize in the latest technology.</p>
+            <a href="https://example.com/technology">
+                <img src="https://images.unsplash.com/photo-1576400883215-7083980b6193?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Technology Image" width="600" height="400">
+            </a>
+            
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://example.com/nature1"><img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature Image 1"width="300" height="300"></a>
+            <a href="https://example.com/nature2"><img src="https://images.unsplash.com/photo-1559825481-12a05cc00344?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature Image 2" width="300" height="300"></a>
+            <a href="https://example.com/nature3"><img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature Image 3" width="300" height="300"></a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        
+        <ul class="menu-list">
+            <li class="menu-item">
+                <a href="https://images.unsplash.com/photo-1615719413546-198b25453f85?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="food-item">
+                        <img src="https://images.unsplash.com/photo-1615719413546-198b25453f85?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" width="300" height="300">
+                        <span class="food-name">Pizza</span>
+                    </div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="food-item">
+                        <img src="https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Noodles" width="300" height="300">
+                        <span class="food-name">Noodles</span>
+                    </div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="food-item">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Grilled Meat" width="300" height="300">
+                        <span class="food-name">Grilled Meat</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        
+        
+    </section>
+</body>
+</html>
